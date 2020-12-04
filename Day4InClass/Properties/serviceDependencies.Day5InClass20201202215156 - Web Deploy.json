@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/day5inclassdbserver/databases/Day5InClass_db",
+      "type": "mssql.azure",
+      "connectionId": "ToDoConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
